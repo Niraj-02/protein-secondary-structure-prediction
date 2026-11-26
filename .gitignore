@@ -1,0 +1,20 @@
+# data (competition data can't be redistributed)
+data/
+*.csv
+!assets/*.csv
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# models
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
